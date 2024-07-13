@@ -13,6 +13,47 @@ section {
     margin: auto;
 }
 
+.section-title {
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+p {
+    line-height: 24px;
+}
+
+.section-title h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.section-title p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.section-body {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.section-body h4 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.section-body button {
+    padding: 10px 24px;
+}
+
+.section-body button a {
+    text-decoration: none;
+    color: #000;
+}
+
 /* Style Header Section */
 
 .navbar {
