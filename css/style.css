@@ -123,9 +123,58 @@ p {
 /* Target Section */
 .target {
     display: flex;
+    gap: 30px;
     margin: 40px 0;
+    
 }
 
-.target-body {
-    margin-right: 60px;
+.target a {
+    color: #000;
+}
+
+
+.html{
+    background-color: #FF4C1E10;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.css{
+    background-color: #004CE810;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.js{
+    background-color: #FFDF0010;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Next Target Section */
+
+.reactjs,
+.nodejs,
+.mongodb {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 0;
+    border: 1px solid #00000010;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.reactjs h4,
+.nodejs h4,
+.mongodb h4 {
+font-size: 24px;
+}
+
+.reactjs a,
+.nodejs a,
+.mongodb a {
+color: #000;
+font-weight: bold;
 }
