@@ -178,3 +178,35 @@ font-size: 24px;
 color: #000;
 font-weight: bold;
 }
+
+#support {
+    text-align: center;
+    background-image: url(../assets/handshake.jpg);
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+#support h3 {
+    font-size: 32px;
+}
+
+#support input {
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+#support input:focus {
+    border: none;
+}
+
+.text-box {
+    width: 400px;
+}
+
+.btn-submit {
+    font-weight: bold;
+}
