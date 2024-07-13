@@ -186,7 +186,7 @@ font-weight: bold;
     padding-bottom: 60px;
     border-radius: 10px;
     color: #FFFFFF;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 #support h3 {
@@ -209,4 +209,28 @@ font-weight: bold;
 
 .btn-submit {
     font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #0D132130;
+}
+#footer-contect {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: auto;
+}
+
+#footer-contect ul {
+    list-style: none;
+}
+
+#footer-contect ul li {
+    display: inline;
+}
+
+#footer-contect ul li img {
+    width: 30px;
+    height: 30px;
 }
